@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1416,6 +1415,1560 @@ document.getElementById("checkout-form").addEventListener(
 );
 
 renderCart();
+</script>
+
+</body>
+</html>
+7:50 PM
+You sent
+8:06 PM
+You sent
+http://localhost/amado_payroll_attendance/setup.php
+http://localhost/Amado_Payroll_Attendance_System/amado_payroll_attendance/login.php
+You should s
+http://localhost/Amado_Payroll_Attendance_System/amado_payroll_attendance/setup.php
+8:56 PM
+You sent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Milky Bites | Isang Kagat, Lunod sa Sarap!</title>
+
+<style>
+:root {
+    --yellow: #ffd95a;
+    --cream: #fff9e9;
+    --brown: #5b351d;
+    --gold: #d99b00;
+    --white: #ffffff;
+    --facebook: #1877f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--cream);
+    color: var(--brown);
+    line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+section { padding: 70px 7%; scroll-margin-top: 100px; }
+img { max-width: 100%; }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0 3px 15px #00000012;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.logo span { color: var(--gold); }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover { color: var(--gold); }
+
+.btn, .cart-button {
+    display: inline-block;
+    background: var(--yellow);
+    color: var(--brown);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 22px;
+    font-weight: bold;
+}
+
+.btn:hover, .cart-button:hover { background: #f3c83c; }
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: clamp(28px, 4vw, 42px);
+    margin-bottom: 10px;
+}
+
+.section-heading p {
+    color: #775c45;
+    max-width: 650px;
+    margin: auto;
+}
+
+/* HOME */
+
+.hero {
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: linear-gradient(120deg, #fff5cf, #ffe28a);
+}
+
+.hero-text { flex: 1 1 320px; }
+
+.tag {
+    display: inline-block;
+    padding: 8px 15px;
+    background: white;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span { color: #c47b00; }
+.hero p { margin-bottom: 20px; max-width: 500px; }
+
+.hero-image {
+    flex: 1 1 280px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 430px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 8px solid #ffffffaa;
+    box-shadow: 0 15px 40px #5b351d20;
+}
+
+.emoji-placeholder {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: #fff8e6;
+    border-radius: 30px;
+    font-size: 100px;
+}
+
+/* ABOUT AND OBJECTIVES */
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 20px #68421a0c;
+}
+
+.card h3 { margin-bottom: 10px; }
+.card p { color: #775c45; }
+.card-icon { font-size: 38px; margin-bottom: 10px; }
+.highlight { background: #fff0ba; }
+
+.history {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+#objectives, #products, #cart { background: #fff2c8; }
+
+/* PRODUCTS */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px #5b351d12;
+}
+
+.product-image {
+    height: 200px;
+    background: #fff9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 80px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.product-info p {
+    color: #775c45;
+    margin: 8px 0 15px;
+}
+
+.price {
+    color: #b77900;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+
+.add-cart {
+    width: 100%;
+    background: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.add-cart:hover { background: #f3c83c; }
+
+.note {
+    background: white;
+    border-left: 5px solid #eab927;
+    padding: 18px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+/* INGREDIENTS */
+
+.ingredient-list { list-style: none; }
+
+.ingredient-list li {
+    padding: 9px 0;
+    border-bottom: 1px solid #eee2d0;
+}
+
+.ingredient-list li::before {
+    content: "✓ ";
+    color: #b77900;
+    font-weight: bold;
+}
+
+.steps-list { padding-left: 20px; }
+.steps-list li { margin-bottom: 10px; }
+
+/* ORGANIZATIONAL CHART */
+
+#team { background: white; }
+
+.org-chart {
+    width: 100%;
+    max-width: 1200px;
+    margin: 35px auto 0;
+    padding: 20px 10px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.org-level {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.top-level { position: relative; }
+
+.org-card {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 155px;
+    min-height: 175px;
+    padding: 12px 8px;
+    background: #fffaf0;
+    border: 2px solid #c2cbdc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 3px 10px #00000008;
+}
+
+.top-level .org-card {
+    max-width: 175px;
+    min-height: 190px;
+    background: #fff1bd;
+    border-color: #f3ce58;
+}
+
+.org-card img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: #ffe7a0;
+    margin-bottom: 8px;
+}
+
+.top-level .org-card img {
+    width: 88px;
+    height: 88px;
+}
+
+.org-card h3 {
+    font-size: 13px;
+    line-height: 1.35;
+    margin-bottom: 5px;
+    overflow-wrap: anywhere;
+}
+
+.org-card h3 a {
+    color: var(--brown);
+    transition: color 0.3s ease;
+}
+
+.org-card h3 a:hover {
+    color: var(--facebook);
+    text-decoration: underline;
+}
+
+.org-card .role {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+.chief { color: #d28b00; }
+.production { color: #8b51d1; }
+.finance { color: #287bc1; }
+.marketing { color: #d66aab; }
+.sales { color: #ef8259; }
+.supply { color: #8b51d1; }
+.delivery { color: #df687e; }
+
+.vertical-line {
+    width: 2px;
+    height: 30px;
+    margin: auto;
+    background: #c2cbdc;
+    flex-shrink: 0;
+}
+
+.horizontal-line {
+    height: 2px;
+    background: #c2cbdc;
+    margin: 0 auto;
+}
+
+.top-horizontal {
+    width: 66.7%;
+    position: relative;
+}
+
+.middle-level {
+    gap: 25px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.org-branch {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.org-branch::before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 2px;
+    background: #c2cbdc;
+    top: -22px;
+}
+
+.branch-line { height: 25px; }
+.staff-horizontal { width: 65%; }
+
+.staff-level {
+    width: 100%;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.staff-level .org-card {
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 175px;
+    padding: 10px 5px;
+}
+
+.staff-level .org-card img {
+    width: 63px;
+    height: 63px;
+}
+
+/* CART AND CHECKOUT */
+
+.cart-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: start;
+    gap: 25px;
+}
+
+.cart-panel, .checkout-panel {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee2d0;
+}
+
+.cart-item-info { flex: 1; }
+
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.qty-controls button, .remove-btn {
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    background: #fff0ba;
+}
+
+.remove-btn { background: #ffe0d8; }
+
+.cart-total {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.form-group { margin: 15px 0; }
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dfd4c4;
+    border-radius: 10px;
+    background: white;
+}
+
+.checkout-panel .btn {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.small-text {
+    color: #775c45;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #4d2d1b;
+    color: white;
+    text-align: center;
+    padding: 35px 7%;
+}
+
+footer p { margin: 5px 0; }
+footer a { color: #ffdf7c; }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 950px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+    }
+
+    .cart-layout { grid-template-columns: 1fr; }
+
+    .org-chart { overflow-x: auto; }
+
+    .top-level,
+    .middle-level {
+        min-width: 780px;
+    }
+}
+
+@media (max-width: 500px) {
+    section { padding: 50px 5%; }
+    nav { gap: 12px; }
+    nav a { font-size: 12px; }
+    .hero-image img { height: 250px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<header>
+    <a href="#home" class="logo">Milky <span>Bites</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#products">Products</a>
+        <a href="#ingredients">Ingredients</a>
+        <a href="#team">Our Team</a>
+        <a href="#cart">Contact / Order</a>
+    </nav>
+
+    <a href="#cart" class="cart-button">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </a>
+</header>
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+        <span class="tag">✨ SOFT • MILKY • AFFORDABLE</span>
+
+        <h1>One Bite,<br><span>Pure Delight!</span></h1>
+
+        <p>
+            Enjoy our soft, fluffy, bite-sized donut treats coated
+            with creamy milk powder. Perfect for students, friends,
+            and every snack lover!
+        </p>
+
+        <p><strong>“Isang kagat, lunod ka sa sarap!”</strong></p>
+
+        <a href="#products" class="btn">Order Your Milky Bites</a>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="356bae4a-631e-47a7-ae9e-56fa7cafab10.jpg"
+            alt="Milky Bites product"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+
+        <div class="emoji-placeholder">🍩🥛</div>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <div class="section-heading">
+        <h2>About Milky Bites 💛</h2>
+        <p>
+            A student-managed snack business created to bring
+            delicious and affordable treats to our community.
+        </p>
+    </div>
+
+    <div class="cards-grid">
+
+        <div class="card">
+            <div class="card-icon">🎯</div>
+            <h3>Our Mission</h3>
+            <p>
+                To provide delicious, soft, and affordable
+                milk-powdered donut bites made with quality
+                ingredients. We aim to give students and customers
+                satisfying snacks that are easy to enjoy and
+                gentle on the budget.
+            </p>
+        </div>
+
+        <div class="card highlight">
+            <div class="card-icon">🌟</div>
+            <h3>Our Vision</h3>
+            <p>
+                To become a well-loved snack brand recognized for
+                its soft texture, rich milky taste, and friendly
+                service, while introducing exciting new flavors
+                and reaching more customers.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🚀</div>
+            <h3>Our Goals</h3>
+            <p>
+                Build loyal customers, maintain quality and
+                cleanliness, keep prices affordable, introduce
+                new flavors, and develop teamwork and
+                entrepreneurial skills.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="history">
+        <h3>📖 Our Company History</h3>
+        <p>
+            Milky Bites started as a small student business by
+            BSIT-2C. Our team wanted to create a simple, tasty,
+            and budget-friendly snack for students, teachers,
+            and the local community. Through teamwork and product
+            testing, we developed our bite-sized treat and worked
+            to improve its taste, texture, packaging, and
+            presentation. We aim to grow through quality products,
+            customer feedback, and friendly service.
+        </p>
+    </div>
+
+</section>
+
+<!-- OBJECTIVES -->
+
+<section id="objectives">
+
+    <div class="section-heading">
+        <h2>Our Objectives 🎯</h2>
+        <p>What we aim to achieve as a student business.</p>
+    </div>
+
+    <div class="cards-grid">
+
+        <div class="card">
+            <div class="card-icon">🏅</div>
+            <h3>Quality Products</h3>
+            <p>Offer delicious, high-quality milk-powdered donut bites at affordable prices.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🛡️</div>
+            <h3>Food Safety</h3>
+            <p>Maintain cleanliness, safe food preparation, and freshness.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">😊</div>
+            <h3>Customer Satisfaction</h3>
+            <p>Provide friendly service and listen to customer feedback.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">💡</div>
+            <h3>Innovation</h3>
+            <p>Introduce new flavors and improve our product based on suggestions.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🤝</div>
+            <h3>Teamwork</h3>
+            <p>Develop creativity, cooperation, and business management skills.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+    <div class="section-heading">
+        <h2>Our Products</h2>
+        <p>Sweet, milky, and worth every bite. Choose your pack!</p>
+    </div>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                    src="file_00000000dab0820784a62abf85614df1.png"
+                    alt="Small Milky Bites pack"
+                    onerror="this.style.display='none';this.parentElement.innerHTML='🍩';">
+            </div>
+
+            <div class="product-info">
+                <h3>Small Pack</h3>
+                <p>A budget-friendly treat for your snack break.</p>
+                <div class="price">₱5.00</div>
+
+                <button class="add-cart"
+                    onclick="addToCart('Small Pack', 5)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                    src="file_00000000b7048207933728d2632c2201.png"
+                    alt="Medium Milky Bites pack"
+                    onerror="this.style.display='none';this.parentElement.innerHTML='🍩🍩';">
+            </div>
+
+            <div class="product-info">
+                <h3>Medium Pack</h3>
+                <p>Approximately 15–18 pieces to share with friends.</p>
+                <div class="price">₱90.00</div>
+
+                <button class="add-cart"
+                    onclick="addToCart('Medium Pack', 90)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img
+                    src="file_0000000085788207a6822e1ecfc7e4fa.png"
+                    alt="Large Milky Bites pack"
+                    onerror="this.style.display='none';this.parentElement.innerHTML='🍩🍩🍩';">
+            </div>
+
+            <div class="product-info">
+                <h3>Large Pack</h3>
+                <p>Approximately 20–25 pieces for sharing.</p>
+                <div class="price">₱110.00</div>
+
+                <button class="add-cart"
+                    onclick="addToCart('Large Pack', 110)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="note">
+        <strong>Note:</strong> Confirm final pack quantities and prices
+        with your Milky Bites team before selling.
+    </div>
+
+</section>
+
+<!-- INGREDIENTS -->
+
+<section id="ingredients">
+
+    <div class="section-heading">
+        <h2>Ingredients & Preparation 🥛</h2>
+        <p>Made with care for a soft and delicious milky snack.</p>
+    </div>
+
+    <div class="cards-grid">
+
+        <div class="card">
+            <div class="card-icon">🧺</div>
+            <h3>Main Ingredients</h3>
+
+            <ul class="ingredient-list">
+                <li>All-purpose flour</li>
+                <li>Milk powder</li>
+                <li>White sugar</li>
+                <li>Cooking oil</li>
+                <li>Chocolate/Cheese</li>
+                <li>Evaporated milk</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">👩‍🍳</div>
+            <h3>Preparation Process</h3>
+
+            <ol class="steps-list">
+                <li>Mix the ingredients to form a soft dough.</li>
+                <li>Shape the dough into small, uniform balls.</li>
+                <li>Deep-fry in clean, medium-hot oil until golden.</li>
+                <li>Coat the warm bites with milk powder.</li>
+                <li>Place them in clean packaging, ready to serve.</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <p class="small-text">
+        Customers with food allergies should confirm the complete
+        recipe and possible cross-contact with the seller.
+    </p>
+
+</section>
+
+<!-- ORGANIZATIONAL CHART -->
+
+<section id="team">
+
+    <div class="section-heading">
+        <h2>Meet Our Team 🤝</h2>
+        <p>The people behind every delicious bite.</p>
+    </div>
+
+    <div class="org-chart">
+
+        <!-- CEO -->
+
+        <div class="org-level top-level">
+
+            <div class="org-card">
+
+                <img src="dcb6e6bc-97ea-43c1-b24f-cb53e60a140f.jpg"
+                     alt="Prince Johan Acusar">
+
+                <h3>
+                    <a href="https://www.facebook.com/share/1DnjNgJNYZ/"
+                       target="_blank" rel="noopener noreferrer">
+                        Prince Johan Acusar
+                    </a>
+                </h3>
+
+                <p class="role chief">Chief Executive Officer</p>
+                <p class="role chief">"One bite, pure delight, try Milky Bites"</p>
+
+            </div>
+
+        </div>
+
+        <div class="vertical-line"></div>
+        <div class="horizontal-line top-horizontal"></div>
+
+        <div class="org-level middle-level">
+
+            <!-- PRODUCTION BRANCH -->
+
+            <div class="org-branch">
+
+                <div class="org-card">
+
+                    <img src="7dd4c799-f3c2-4980-a211-6cbe1a7fa5e9.jpg"
+                         alt="Mark Joshua Bejar">
+
+                    <h3>
+                        <a href="https://www.facebook.com/share/1A4zt3Xw9r/"
+                           target="_blank" rel="noopener noreferrer">
+                            Mark Joshua Bejar
+                        </a>
+                    </h3>
+
+                    <p class="role production">Production Officer</p>
+                    <p class="role chief">"Kapag Milky Bites, happy ang bawat bites"</p>
+
+                </div>
+
+                <div class="vertical-line branch-line"></div>
+                <div class="horizontal-line staff-horizontal"></div>
+
+                <div class="org-level staff-level">
+
+                    <div class="org-card">
+
+                        <img src="846206831_2269972383797264_5455366532286442881_n.jpg"
+                             alt="Aaron James Picardal">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/19rDak4sPH/"
+                               target="_blank" rel="noopener noreferrer">
+                                Aaron James Picardal
+                            </a>
+                        </h3>
+
+                        <p class="role sales">Sales Staff</p>
+                        <p class="role chief">"Bawat kagat, sarap na sapat"</p>
+
+                    </div>
+
+                    <div class="org-card">
+
+                        <img src="112cc1c7-cbbd-4396-84b9-30f08c6281ca.jpg"
+                             alt="Uniessa Mie Juntilla">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/1Q7YNXwuTK/"
+                               target="_blank" rel="noopener noreferrer">
+                                Uniessa Mie Juntilla
+                            </a>
+                        </h3>
+
+                        <p class="role sales">Sales Staff</p>
+                        <p class="role chief">"Milky Bites, tamis na babalik-balikan"</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FINANCE BRANCH -->
+
+            <div class="org-branch">
+
+                <div class="org-card">
+
+                    <img src="45077a09-7853-4d72-bde1-027bb4a9c5a8.jpg"
+                         alt="Mark Anthony Caratay">
+
+                    <h3>
+                        <a href="https://www.facebook.com/share/1HfEpUgbWk/"
+                           target="_blank" rel="noopener noreferrer">
+                            Mark Anthony Caratay
+                        </a>
+                    </h3>
+
+                    <p class="role finance">Finance Officer</p>
+                    <p class="role chief">"Sarap ng Milky Bites, parang siya lang"</p>
+
+                </div>
+
+                <div class="vertical-line branch-line"></div>
+                <div class="horizontal-line staff-horizontal"></div>
+
+                <div class="org-level staff-level">
+
+                    <div class="org-card">
+
+                        <img src="5e93a39f-d83c-4529-a5cf-ca35dc8381da.jpg"
+                             alt="Richelle Del Rosario">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/1TT94bSuk1/"
+                               target="_blank" rel="noopener noreferrer">
+                                Richelle Del Rosario
+                            </a>
+                        </h3>
+
+                        <p class="role supply">Supply Staff</p>
+                        <p class="role chief">"Isang kagat, sasaya ka sa sarap, mag Milky Bites"</p>
+
+                    </div>
+
+                    <div class="org-card">
+
+                        <img src="689332ad-ae58-4bce-9a5a-32273eca339f.jpg"
+                             alt="Josel Buhay">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/1MDU5VKXw6/"
+                               target="_blank" rel="noopener noreferrer">
+                                Josel Buhay
+                            </a>
+                        </h3>
+
+                        <p class="role supply">Supply Staff</p>
+                        <p class="role chief">"Milky Bites, swak sa bawat kagat"</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- MARKETING BRANCH -->
+
+            <div class="org-branch">
+
+                <div class="org-card">
+
+                    <img src="ba1316b1-d562-4c55-97cc-3baf923b4d2f.jpg"
+                         alt="Christian Dave Flores">
+
+                    <h3>
+                        <a href="https://www.facebook.com/christian.dave.flores.441329?mibextid=ZbWKwL"
+                           target="_blank" rel="noopener noreferrer">
+                            Christian Dave Flores
+                        </a>
+                    </h3>
+
+                    <p class="role marketing">Marketing Officer</p>
+                    <p class="role chief">"Sa oras ng kagipitan, Milky bites ang kailangan"</p>
+
+                </div>
+
+                <div class="vertical-line branch-line"></div>
+                <div class="horizontal-line staff-horizontal"></div>
+
+                <div class="org-level staff-level">
+
+                    <div class="org-card">
+
+                        <img src="56cfc2df-4e22-4a2d-806e-4e79d83c5e76.jpg"
+                             alt="Jhon Alwin Legarde">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/1E6rXXPbsz/"
+                               target="_blank" rel="noopener noreferrer">
+                                Jhon Alwin Legarde
+                            </a>
+                        </h3>
+
+                        <p class="role delivery">Inventory &amp; Delivery Staff</p>
+                        <p class="role chief">"Ang tunay na sa sarap, sa Milky Bites mo malalasap"</p>
+
+                    </div>
+
+                    <div class="org-card">
+
+                        <img src="e6d5c3a6-a9d2-425b-837e-85b78454628b.jpg"
+                             alt="John Philip Tianson">
+
+                        <h3>
+                            <a href="https://www.facebook.com/share/1CBkaVzRii/"
+                               target="_blank" rel="noopener noreferrer">
+                                John Philip Tianson
+                            </a>
+                        </h3>
+
+                        <p class="role delivery">Inventory &amp; Delivery Staff</p>
+                        <p class="role chief">"Milky Bites, number one"</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="small-text">
+        Click an employee's name to visit their Facebook profile.
+    </p>
+
+</section>
+
+<!-- SHOPPING CART AND CHECKOUT -->
+
+<section id="cart">
+
+    <div class="section-heading">
+        <h2>Your Shopping Cart 🛒</h2>
+        <p>Add your favorite packs and prepare your order.</p>
+    </div>
+
+    <div class="cart-layout">
+
+        <!-- ORDER SUMMARY -->
+
+        <div class="cart-panel">
+
+            <h3>Order Summary</h3>
+
+            <div id="cart-items">
+                <p style="margin-top:15px;color:#775c45;">
+                    Your cart is empty. Add a product to get started!
+                </p>
+            </div>
+
+            <div class="cart-total">
+                Total: ₱<span id="cart-total">0.00</span>
+            </div>
+
+            <button type="button"
+                    class="btn"
+                    style="margin-top:15px;"
+                    onclick="clearCart()">
+                Clear Cart
+            </button>
+
+        </div>
+
+        <!-- CUSTOMER CHECKOUT -->
+
+        <div class="checkout-panel">
+
+            <h3>Customer Information</h3>
+
+            <form id="checkout-form">
+
+                <div class="form-group">
+                    <label for="customer-name">Full Name *</label>
+
+                    <input id="customer-name"
+                           type="text"
+                           placeholder="Enter your name"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-phone">Contact Number *</label>
+
+                    <input id="customer-phone"
+                           type="tel"
+                           placeholder="Enter contact number"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="order-method">Order Method *</label>
+
+                    <select id="order-method" required>
+                        <option value="">Choose an option</option>
+                        <option value="Campus pickup">Campus pickup</option>
+                        <option value="Meet-up">Meet-up</option>
+                        <option value="Delivery">Delivery</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-flavor">What Flavor Would You Like? *</label>
+
+                    <select id="customer-flavor" required>
+                        <option value="">Choose a flavor</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Cheese">Cheese</option>
+                        <option value="Ube Crunch">Ube Crunch</option>
+                        <option value="Mixed">Mixed</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="customer-notes">Additional Notes</label>
+
+                    <textarea id="customer-notes"
+                              rows="3"
+                              placeholder="Optional order instructions"></textarea>
+                </div>
+
+                <button class="btn" type="submit">
+                    Buy Now / Prepare Order
+                </button>
+
+            </form>
+
+            <p class="small-text">
+                Clicking Buy Now will open your email application
+                with your order details addressed to Milky Bites.
+                Please press Send to submit your order.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>🥛 Milky Bites</h2>
+
+    <p><strong>“Isang kagat, lunod ka sa sarap!”</strong></p>
+
+    <p>BSIT-2C | Eastern Samar State University</p>
+    <p>Borongan Campus, Eastern Samar</p>
+
+    <p style="margin-top:15px;">
+        Follow us:
+
+        <a href="https://www.facebook.com/share/1E6A8xWjwL/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Milky Bites Isang Kagat Lunod Ka Sa Sarap
+        </a>
+    </p>
+
+    <p style="margin-top:15px;font-size:13px;">
+        © 2026 Milky Bites. All rights reserved.
+    </p>
+
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+// SHOPPING CART ARRAY
+
+const cart = [];
+
+
+// ADD PRODUCT TO CART
+
+function addToCart(name, price) {
+
+    const existing = cart.find(item => item.name === name);
+
+    if (existing) {
+
+        existing.quantity++;
+
+    } else {
+
+        cart.push({
+            name: name,
+            price: price,
+            quantity: 1
+        });
+
+    }
+
+    renderCart();
+
+    alert(name + " added to your cart!");
+
+}
+
+
+// CHANGE PRODUCT QUANTITY
+
+function changeQuantity(name, amount) {
+
+    const item = cart.find(product => product.name === name);
+
+    if (!item) return;
+
+    item.quantity += amount;
+
+    if (item.quantity <= 0) {
+
+        const index = cart.indexOf(item);
+
+        cart.splice(index, 1);
+
+    }
+
+    renderCart();
+
+}
+
+
+// REMOVE PRODUCT
+
+function removeItem(name) {
+
+    const index = cart.findIndex(item => item.name === name);
+
+    if (index !== -1) {
+
+        cart.splice(index, 1);
+
+    }
+
+    renderCart();
+
+}
+
+
+// CLEAR CART
+
+function clearCart() {
+
+    cart.length = 0;
+
+    renderCart();
+
+}
+
+
+// COMPUTE TOTAL PRICE
+
+function getTotal() {
+
+    return cart.reduce(
+        (sum, item) => sum + item.price * item.quantity,
+        0
+    );
+
+}
+
+
+// DISPLAY CART
+
+function renderCart() {
+
+    const container = document.getElementById("cart-items");
+
+    const count = cart.reduce(
+        (sum, item) => sum + item.quantity,
+        0
+    );
+
+    document.getElementById("cart-count").textContent = count;
+
+    document.getElementById("cart-total").textContent =
+        getTotal().toFixed(2);
+
+
+    if (cart.length === 0) {
+
+        container.innerHTML =
+            '<p style="margin-top:15px;color:#775c45;">' +
+            'Your cart is empty. Add a product to get started!</p>';
+
+        return;
+
+    }
+
+
+    container.innerHTML = cart.map(item => `
+
+        <div class="cart-item">
+
+            <div class="cart-item-info">
+
+                <strong>${item.name}</strong>
+
+                <div>₱${item.price.toFixed(2)} each</div>
+
+                <div class="qty-controls">
+
+                    <button type="button"
+                        onclick="changeQuantity('${item.name}', -1)">
+                        −
+                    </button>
+
+                    <span>${item.quantity}</span>
+
+                    <button type="button"
+                        onclick="changeQuantity('${item.name}', 1)">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+            <strong>
+                ₱${(item.price * item.quantity).toFixed(2)}
+            </strong>
+
+            <button type="button"
+                    class="remove-btn"
+                    onclick="removeItem('${item.name}')">
+                Remove
+            </button>
+
+        </div>
+
+    `).join("");
+
+}
+
+
+// EMAIL CHECKOUT FUNCTION
+
+document.getElementById("checkout-form").addEventListener(
+    "submit",
+
+    function(event) {
+
+        event.preventDefault();
+
+
+        // CHECK IF CART IS EMPTY
+
+        if (cart.length === 0) {
+
+            alert("Your cart is empty. Please add a product first.");
+
+            return;
+
+        }
+
+
+        // GET CUSTOMER INFORMATION
+
+        const name =
+            document.getElementById("customer-name").value.trim();
+
+        const phone =
+            document.getElementById("customer-phone").value.trim();
+
+        const method =
+            document.getElementById("order-method").value;
+
+        const flavor =
+            document.getElementById("customer-flavor").value;
+
+        const notes =
+            document.getElementById("customer-notes").value.trim();
+
+
+        // VALIDATE CUSTOMER INFORMATION
+
+        if (!name || !phone || !method || !flavor) {
+
+            alert("Please complete all required fields.");
+
+            return;
+
+        }
+
+
+        // CREATE ORDER MESSAGE
+
+        let order = "MILKY BITES ORDER\n\n";
+
+        order += "CUSTOMER INFORMATION\n";
+
+        order += "Customer Name: " + name + "\n";
+
+        order += "Contact Number: " + phone + "\n";
+
+        order += "Order Method: " + method + "\n";
+
+        order += "Flavor: " + flavor + "\n\n";
+
+
+        // ADD ORDERED PRODUCTS
+
+        order += "ORDER DETAILS\n";
+
+        order += "--------------------------\n";
+
+
+        cart.forEach(item => {
+
+            order += item.name +
+                " x " + item.quantity +
+                " = ₱" +
+                (item.price * item.quantity).toFixed(2) +
+                "\n";
+
+        });
+
+
+        // ADD TOTAL PRICE
+
+        order += "--------------------------\n";
+
+        order += "TOTAL: ₱" + getTotal().toFixed(2);
+
+
+        // ADD CUSTOMER NOTES
+
+        if (notes) {
+
+            order += "\n\nAdditional Notes: " + notes;
+
+        }
+
+
+        order += "\n\nThank you for choosing Milky Bites!";
+
+        order += "\nPlease confirm availability and payment with the seller.";
+
+
+        // EMAIL ADDRESS
+
+        const email = "milkybitesflat1@gmail.com";
+
+
+        // EMAIL SUBJECT
+
+        const subject = encodeURIComponent(
+            "New Milky Bites Order from " + name
+        );
+
+
+        // EMAIL BODY
+
+        const body = encodeURIComponent(order);
+
+
+        // CREATE EMAIL LINK
+
+        const mailtoLink =
+            "mailto:" + email +
+            "?subject=" + subject +
+            "&body=" + body;
+
+
+        // OPEN CUSTOMER EMAIL APPLICATION
+
+        window.location.href = mailtoLink;
+
+    }
+
+);
+
+
+// INITIALIZE CART
+
+renderCart();
+
 </script>
 
 </body>
